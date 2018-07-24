@@ -38,12 +38,12 @@ geotab.addin.nuevoChat = function () {
     focus: function (freshApi, freshState) {
        // example of setting url state
       freshState.setState({
-        hello: 'world'
+       // hello: 'world'
       });
 
       // getting the current user to display in the UI
       freshApi.getSession(session => {
-        //elAddin.querySelector('#nuevoChat-user').textContent = session.userName;
+        elAddin.querySelector('#nuevoChat-user').textContent = session.userName;
       });
 
       // show main content
