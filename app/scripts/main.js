@@ -43,7 +43,7 @@ geotab.addin.nuevoChat = function () {
 
       // getting the current user to display in the UI
       freshApi.getSession(session => {
-        elAddin.querySelector('#nuevoChat-user').textContent = session.userName;
+        //elAddin.querySelector('#nuevoChat-user').textContent = session.userName;
       });
 
       // show main content
